@@ -116,7 +116,7 @@ export const getUserMessages = async (req, res) => {
     if (messages.length === 0) {
       messages = [{
         id: 0,
-        text: "Assalomu alaykum! CodeShef.uz web sitega xush kelibsiz! Sizga qanday yordam bera olaman?",
+        text: "Assalomu alaykum! Infinity-School web sitega xush kelibsiz! Sizga qanday yordam bera olaman?",
         userId: userId,
         isAdmin: true,
         time: new Date().toISOString(),
